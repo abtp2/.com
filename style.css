@@ -1,0 +1,83 @@
+body{
+overflow-x:hidden;
+}
+::selection{
+background:red;
+color:white;
+}
+.carousel-item img{
+height:250px;
+width:100%;
+}
+@media screen and (min-width: 480px) {
+  .carousel-item img{
+height:550px;
+width:100%;
+}
+}
+h5{
+font-family: 'Pushster', cursive;
+}
+h3{
+font-family: 'Pushster', cursive;
+
+}
+h1{
+font-family: 'Pushster', cursive;
+}
+h2{
+font-family: 'Pushster', cursive;
+
+}
+#advance{
+font-family: 'Pushster', cursive;
+}
+
+.navbar navbar-expand-lg navbar-light bg-warning{
+position:fixed;
+}
+.d-inline-block{
+
+}
+.silent{
+width:88vw;
+height:600px;
+}
+@media screen and (min-width: 480px) {
+ .silent{
+width:88vw;
+height:700px;
+}
+}
+@media screen and (min-width: 480px) {
+ .logo{
+width:200px;
+height:180px;
+}
+}
+#carouselmt{
+margin-top:3.5rem ;
+}
+#formbox{
+box-shadow:10px 10px 70px #000;
+border-radius:5px;
+font-size:15px;
+}
+.row{
+background-color:#e8e8e8;
+}
+#write{
+box-shadow:10px 10px 70px #000;
+border-radius:5px;
+}
+#myBtn{display:none;position:fixed;bottom:5px;right:5px;border-radius:100px;	z-index:99;height:32px;width:32px;cursor:pointer;padding:0px;background-color:#0d6efd;border:none;
+
+}					
+.carousel-control-prev-icon{
+background-color:#000;
+border-radius:1000px;
+}
+.carousel-control-next-icon{
+background-color:#000;
+border-radius:1000px;
+}
